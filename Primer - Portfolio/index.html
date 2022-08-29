@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+
+    <!--Links-->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <header class="encabezado">
+        <div class="contenedor">
+            <nav class="nav">
+                <a href="#prese" class="nav__a">Sobre Mi</a>
+                <a href="#porfolios" class="nav__a">Portafolios</a>
+                <a href="#contacto" class="nav__a">Contacto</a>
+            </nav>
+
+            <section class="encabezado__contenedor">
+                <div class="encabezado__texto">
+                    <h1 class="encabezado__titulo">Hola! Soy Waldemar Galizzi</h1>
+                    <h2 class="encabezado__subtitulo">Estudiante Ing.Sistemas</h2>
+                    <a href="https://www.linkedin.com/in/waldemar-galizzi/" target="_blank" class="encabezado__boton">LinkedIn</a>
+                </div>
+            </section>
+        </div>    
+        <div class="encabezado__ola"  overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+    </header>
+
+    <main>
+        <section id="prese" class="presentacion contenedor">
+            <img src="/recursos/cv-online.png" class="presentacion__imagen"alt="imagen personal">
+            <h2 class="subtitulo">Mi nombre es Mauro Waldemar Galizzi</h2>
+            <p class="presentacion__texto"> Soy estudiante de Ing.Sistemas con interes en desarrollo web.</p>
+            <p class="presentacion__texto">
+            Mis obejtivos son establecerme en una empresa y  
+            crecer en el area laboral, personal e intelectual.
+            </p>
+            <a href="https://drive.google.com/file/d/1QBoBidybn9YVwYMOHyf7-IuBU9T7-Q5P/view?usp=sharing" target="_blank" class="presentacion__boton">CV</a>
+        </section>
+
+        <section class="sobremi contenedor">
+            <div class="sobremi__texto">
+                <h2 class="subtitulo">Mis habilidades</h2>
+
+                
+                <p class="sobremi__parrafo">Proactivo</p>
+                <p class="sobremi__parrafo">Responsable</p>
+                <p class="sobremi__parrafo">Trabajo en equipo</p>
+                <p class="sobremi__parrafo">Gestión comercial</p>
+                <p class="sobremi__parrafo">Atención al cliente</p>
+                
+
+
+            </div>
+
+            <figure class="sobremi__img">
+            <img src="/recursos/undraw_completed_tasks_vs6q.svg" alt="" class="sobremi__imagen">
+            </figure>
+
+        </section>
+
+        <section id="porfolios" class="portafolios">
+            <div class="contenedor">
+                <h2 class="subtitulo">Portafolios</h2>
+                    <div class="portafolios__grid">
+
+                        <article class="portafolios__items">
+
+                            <a href="https://page-portfolio-1.netlify.app" target="_blank">
+                                <img src="/recursos/El arca.png" class="portafolios__img" alt="">
+                                <div class="portafolios__hover">
+                                    <h2 class="portafolios__titulo">Proyecto</h2> 
+                                    <i class="far fa-file-alt portafolios__icono"></i>
+                                </div>
+                            </a>
+
+                        </article>
+
+                        <article class="portafolios__items">
+
+                            <a href="https://page-porfolio-2.netlify.app" target="_blank">
+                                <img src="/recursos/cafe.png" class="portafolios__img" alt="">
+                                <div class="portafolios__hover">
+                                    <h2 class="portafolios__titulo">Proyecto</h2> 
+                                    <i class="far fa-file-alt portafolios__icono"></i>
+                                </div>
+                            </a>
+
+                        </article>
+
+                        <article class="portafolios__items">
+
+                            <a href="https://page-porfolio-4.netlify.app" target="_blank">
+                                <img src="/recursos/weblanding.png" class="portafolios__img" alt="">
+                                <div class="portafolios__hover">
+                                    <h2 class="portafolios__titulo">Proyecto</h2> 
+                                    <i class="far fa-file-alt portafolios__icono"></i>
+                                </div>
+                            </a>
+                            
+                        </article>
+
+                    </div>
+            </div>
+        </section>
+
+        <section class="lenguajes">
+
+            <div class="contenedor">
+                <h2 class="subtitulo">Lenguajes</h2>
+
+                <section class="lenguajes__grid">
+
+                    <div class="lenguajes__items">
+                        <img src="/recursos/c.svg" alt="">
+                        <h3>C++</h3>
+                    </div>
+
+                    <div class="lenguajes__items">
+                        <img src="/recursos/html.svg" alt="">
+                        <h3>HTML</h3>
+                    </div>
+
+                    <div class="lenguajes__items">
+                        <img src="/recursos/css.svg" alt="">
+                        <h3>CSS</h3>
+                    </div>
+
+                    <div class="lenguajes__items">
+                        <img src="/recursos/js.svg" alt="">
+                        <h3>Js</h3>
+                    </div>
+                </section>
+            </div>
+
+        </section>
+    </main>
+
+    <footer id="contacto"class="footer">
+        <div class="contenedor footer__grid">
+            <nav class="nav nav--footer">
+                <a class="nav__a nav__items--footer"href="#">Inicio</a>
+                <a class="nav__a nav__items--footer"href="#prese">Sobre Mi</a>
+                <a class="nav__a nav__items--footer"href="#porfolios">Portafolios</a>
+            </nav>
+
+            <section class="footer__contacto">
+                <h3 class="footer__titulo">Contactame</h3>
+                <div class="footer__iconos">
+                    <span class="footer__contenedor-iconos">
+                        <a href="https://www.linkedin.com/in/waldemar-galizzi/" target="_blank" class="fa-brands fa-linkedin footer__icon" href="#"></a>
+                    </span>
+                    <span class="footer__contenedor-iconos">
+                        <a href="mailto:waldemargalizzi98@gmail.com" target="_blank" class="fa-solid fa-envelope footer__icon" href="#"></a>
+                    </span>
+                    <span class="footer__contenedor-iconos">
+                        <a  href="https://wa.me/+543425880201?" target="_blank" class="fa-brands fa-whatsapp-square footer__icon" href="#"></a>
+                    </span>
+                </div>
+
+            </section>
+        </div>
+
+    </footer>
+   
+    
+    
+
+
+    <script src="https://kit.fontawesome.com/1e74c0d5d9.js" crossorigin="anonymous"></script>
+</body>
+</html>
